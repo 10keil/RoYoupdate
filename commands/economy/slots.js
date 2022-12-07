@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
-const slot = ["<a:slot:896774794706571365>"]
-const cash = "<:Bobocash:897148836567457862>"
+const slot = ["<a:slot:1050062209272787065>"]
+const cash = "💷"
 const { Color } = require("../../config.js")
 module.exports = {
   name: "slots",
@@ -27,7 +27,7 @@ if(amount > money) return message.channel.send({content: `❎ You don't have eno
   
         
  let br = amount * 1   
-  let slots = ["<:heart:896938168681627658>","<:heart:896938168681627658>","<:heart:896938168681627658>","<:gelas:896938056840515664>","<:gelas:896938056840515664>","<:bainjan:896937982160949329>","<:bainjan:896937982160949329>"]
+  let slots = ["<:hears:1050062485975203900>","<:hears:1050062485975203900>","<:hears:1050062485975203900>","<:gilas:1050062382791135333>","<:gilas:1050062382791135333>","<:bayjan:1050062345952575559>","<:bayjan:1050062345952575559>"]
 ////["🍇","🍒","🍒","🍇"];
   //
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
