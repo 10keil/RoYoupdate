@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 const { Color } = require("../../config.js")
 const ms = require('parse-ms')
-const bobo = "<:Bobocash:897148836567457862>"
-const tail = "<a:flip:897157024209592331>"
+const bobo = "💷"
+const tail = "<a:cf:1050062281565798451>"
 module.exports = {
   name: "coinflip",
   aliases: ["coinflip","cf"],
