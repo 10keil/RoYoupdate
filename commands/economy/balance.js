@@ -1,6 +1,6 @@
 const fs = require("fs");
 const Discord = require("discord.js");
-const m = "<:Bobocash:897148836567457862>"
+const m = "💷"
 
 module.exports = {
   name: "balance",
@@ -25,7 +25,7 @@ module.exports = {
     if (!member) {
       let author = await User.findOne({ userID: message.author.id });
       message.reply({
-        content: `🏦 **${message.author.username}**, Your credits balance is:  __\`${author.money}\`__${m}
+        content: `🏦 **${message.author.username}**, Your credit balance is:  __\`${author.money}\`__${m}
       `});
     }
   }
