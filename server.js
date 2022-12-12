@@ -21,11 +21,11 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "G";
+const prefix = "R";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util");
-let dev = ["637299944939585576"];
+let dev = ["963498655468376117"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -35,7 +35,7 @@ global.logChannel = bot.channels.cache.get("916080243884818482")
 global.mongoose = require("mongoose");
 mongoose
   .connect(
-    "",
+    "mongodb+srv://Bot:mapxoor1234@cluster0.zsyycdp.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
@@ -86,7 +86,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Ghelp | Updated: 1.0.0V", { type: "STREAMING" });
+  bot.user.setActivity("Rhelp | Updated: 1.0.0V", { type: "STREAMING" });
 });
 ///////////
 
